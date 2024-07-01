@@ -1,4 +1,4 @@
-# 理想网络编程和套接字
+# 理解网络编程和套接字
 ### 重要函数
 生成套接字
 ```
@@ -51,6 +51,7 @@ int open(const char *path, int flag);
 |O_RDONLY|只读打开|
 |O_WRONLY|只写打开|
 |O_RDWR|读写打开|
+
 关闭文件
 ```
 #inlcude <unistd.h>
