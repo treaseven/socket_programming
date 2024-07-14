@@ -61,11 +61,10 @@ oldact：通过此参数获取之前注册的信号处理函数指针，若不�
 */
 ```
 声明并初始化sigaction结构体变量以调用上述函数，该结构体定义如下：
-struct sigaction
+```struct sigaction
 {
     void (*sa_handler)(int);
     sigset_t sa_mask;
     int sa_flags;
 }
-```
 ```
